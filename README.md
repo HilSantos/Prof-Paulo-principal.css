@@ -1,5 +1,7 @@
 # Aulas-Prof-Paulo-Senacsp02
+
 CSS
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
