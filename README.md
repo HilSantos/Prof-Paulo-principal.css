@@ -25,6 +25,24 @@ header #anuncio{
     padding-top: 0;
 }
 
+header section a[href="boletim.html"]{
+    border: solid #c0262c thin;
+    padding: 15px;
+    border-radius: 15px;
+    color: #c0262c;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header section{
+    padding-top: 70px;
+}
+
+header section p{
+    color: #999999;
+    margin: 33px auto 7px;
+}
+
 main h1{
     color: #c0262c;
     font-size: 2.5em;
