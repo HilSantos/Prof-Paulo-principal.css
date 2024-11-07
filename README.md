@@ -2,18 +2,30 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+header h1{
+    width: 240px;
+    float: left;
+    background-image: url(../Multimidia/meu-amigo-cao-petshop-header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    text-indent: -1000px;
+    margin-bottom: 0;
+}
 
-
-h1{
+main h1{
     color: #c0262c;
     font-size: 2.5em;
     border-bottom: #c0262c solid thin;
     padding-bottom: 7px;
 }
 
-h2{
+main h2{
     font-size: 1.75em;
     background: url(../Multimidia/back-bolinha.gif) repeat top center;
     color: #fff;
@@ -22,18 +34,18 @@ h2{
     width: 316px;
 
 }
-p{
+main p{
     font-size: 1.1em;
     line-height: 1.3em;
     text-align: justify;
 }
-p:first-line{
+main h2+p:first-line{
     font-size: 1.17em;
     font-variant: small-caps;
     font-weight: bolder;
     font-style: italic;
 }
-hr{
+main hr{
     border-color: #c0262c;
 }
 
@@ -140,4 +152,64 @@ label{
     letter-spacing: 0.05em;
     padding: 10px;
     margin-left: 13px;
+}
+
+#banhoEtosa fieldset label{
+    display: block;
+    margin-top: 7px;
+    float: left;
+    width: 115px;
+}
+
+#banhoEtosa fieldset input[type="text"],
+#banhoEtosa fieldset input[type="email"]{
+    border: none;
+    border-bottom: #000 solid 1px;
+    font-size: 1.2em;
+    color: #000;
+    width: 770;
+}
+
+#banhoEtosa fieldset textarea{
+    width: 750px;
+    height: 100px;
+    font-size: 1.2em;
+    border: #000 solid 1px;
+}
+
+#banhoEtosa fieldset label.labelSimples{
+    display: inline;
+    float: none;
+}
+
+#banhoEtosa p{
+    text-align: left;
+}
+
+#banhoEtosa p:first-line{
+    font-size: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+#banhoEtosa main h2{
+    background: url(../Multimidia/postit.jpg)
+    no-repeat top left;
+    color: #000;
+    padding: 35px;
+    width: 207px;
+    height: 115px;
+    font-size: 1.3125;
+    letter-spacing: 0.07em;
+}
+
+/* Quem somos */
+
+#quemSomos main img{
+    float: left;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    border: solid #c0262c thin;
+    background-color: #fff;
 }
