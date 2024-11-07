@@ -18,6 +18,13 @@ header h1{
     margin-bottom: 0;
 }
 
+header #anuncio{
+    width: 510px;
+    float: left;
+    margin: 80px auto auto;
+    padding-top: 0;
+}
+
 main h1{
     color: #c0262c;
     font-size: 2.5em;
