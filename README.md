@@ -61,6 +61,41 @@ header section figure a:last-child{
     padding: 25px 0 0 5px;
 }
 
+/* barra de navegação */
+
+nav{
+    background-color: #000;
+    overflow: auto;
+    clear: both;
+    margin-top: 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1px;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 50px;
+    line-height: 2em;
+}
+
+#inicial a[href="index.html"],
+#quemSomos a[href="quem-somos.html"],
+#produtos a[href="produtos.html"],
+#banhoEtosa a[href="banho-e-tosa"],
+#curiosidade a[href="curiosidades.html"]{
+background-color: #c0262c;
+}
+
 main h1{
     color: #c0262c;
     font-size: 2.5em;
