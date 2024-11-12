@@ -43,6 +43,24 @@ header section p{
     margin: 33px auto 7px;
 }
 
+header section figure{
+    width: 100%;
+    margin: 0;
+}
+
+header section figure a{
+    padding: 25px 5px 0 ;
+    border: none;
+}
+
+header section figure a:first-child{
+    padding: 25px 5px 0 0;
+}
+
+header section figure a:last-child{
+    padding: 25px 0 0 5px;
+}
+
 main h1{
     color: #c0262c;
     font-size: 2.5em;
