@@ -108,6 +108,19 @@ background-color: #c0262c;
     margin: 30px 25px 10px;
 }
 
+footer{
+    clear: both;
+    border-top: 7px solid #999;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p{
+    margin: 0;
+}
+
 main h1{
     color: #c0262c;
     font-size: 2.5em;
