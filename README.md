@@ -316,3 +316,28 @@ label{
     border: solid #c0262c thin;
     background-color: #fff;
 }
+
+/* Obrigado */
+
+#obrigado main p img{
+    float: left;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    border: solid #c0262c 1px;
+    background-color: #fff;
+}
+
+#destaqueObrigado{
+    position: relative;
+    border: solid #c0262c 1px;
+    border-radius: 0 25px;
+    padding: 5px 25px;
+    margin: 20px 0;
+}
+
+#obrigado #lacinho{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    transform: rotate(30deg);
+}
