@@ -96,6 +96,18 @@ nav ul li a{
 background-color: #c0262c;
 }
 
+#inicial aside{
+    width: 230px;
+    float: left;
+    margin-top: 30px;
+}
+
+#inicial main{
+    width: 490px;
+    float: left;
+    margin: 30px 25px 10px;
+}
+
 main h1{
     color: #c0262c;
     font-size: 2.5em;
