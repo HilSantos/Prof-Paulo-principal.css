@@ -341,3 +341,61 @@ label{
     right: -20px;
     transform: rotate(30deg);
 }
+/* transição */
+
+.anuncioAnime{
+    margin: 0 0 10px;
+    padding: 0;
+    overflow: auto;
+}
+
+.anuncioAnime .boxAnuncio{
+    width: 163px;
+    height: 230px;
+    border-bottom: solid thin #c0262c;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.anuncioAnime .boxAnuncio p{
+    text-align: center;
+    font-size: 0.95em;
+    line-height: 1.3em;
+    background-color: rgba(255,255,255,1);
+    border-left: solid 1px rgb(192,38,44);
+    border-right: solid 1px #c0262c;
+    margin: 0;
+    padding: 7px 15px;
+    position: absolute;
+    bottom: -84px;
+    left: 0;
+    transition: 2s linear 0.2s;
+    cursor: default;
+}
+
+.anuncioAnime .boxAnuncio p::first-line{
+    font-size: 1.1em;
+    font-variant: inherit;
+    font-style: normal;
+    font-weight: bolder;
+    color: #c0262c;
+    padding: 0;
+}
+
+.anuncioAnime .boxAnuncio p:hover{
+    background-color: rgba(255,255,255,0.7);
+    bottom: 0;
+}
+
+/* audio controls */
+
+aside audio{
+    width: 225px;
+}
+
+/* video controls */
+
+aside video{
+    width: 230px;
+}
